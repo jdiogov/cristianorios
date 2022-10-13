@@ -1,0 +1,110 @@
+body{
+  background-image: url("./img/minidjambe.jpg");
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position-y: 0%;
+  background-size: 100%;
+}
+
+header {
+  font-family: Arial, Helvetica, sans-serif;
+  color: antiquewhite;
+  height: 675px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 900px;
+  background-color: rgba(61, 60, 46, 0);
+}
+
+button{
+  font-family: Arial, Helvetica, sans-serif;
+  border-style: none;
+  font-size: 30px;
+  color: rgb(237, 235, 232);
+  background: none;
+  padding: 20px;
+}
+
+div {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+/*button experiment code*/
+
+button {
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  padding: 16px;
+  width: 220px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 36px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+button{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  top: 14px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover{
+  padding-right: 24px;
+  padding-left:8px;
+}
+
+button:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+/* experiência com flex
+
+.parent {
+  border: 3px solid orange;
+  height: 675px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.child {
+  width: 40px;
+  height: 40px;
+  background: blueviolet
+}*/
+
+/*button:hover {
+  transition: 1s ease-in-out;
+  background: rgba(255, 255, 255, 0.446);
+}
+
+button:hover svg {
+  stroke-dashoffset: -480;
+}
+
+button span {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+}*/
